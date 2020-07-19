@@ -57,11 +57,9 @@ public static function showExtra1($category='' , $limit=''){
 //Single item show 1 -layout
 public function showSingle1(){
 $images = $this->allImages();
-if($images[0] !== ''){
-	$galery = "";
-	for($i = 0 ; $i < count($images) ; $i++){
-		$galery .= "<div class='gvd-single-galery col-4 p-0'><img class='img-fluid' alt='$this->title' src='" .  $images[$i] . "'></div>" ;	
-	}
+$galery = '';
+for($i = 0 ; $i < count($images) ; $i++){
+$galery .= "<div class='col-4 p-0'><img class='img-fluid' alt='$this->title' src='" .  $images[$i] . "'></div>" ;	
 }
 ?>
 <h1><?php echo $this->title ;?></h1>
@@ -73,13 +71,10 @@ if($images[0] !== ''){
 <p><?php echo $this->description ;?></p>	
 </div>
 </section>
-<?php if(isset($galery)) { ?> 
-<h2 class='text-center'>Galeria de fotos</h2>
 <section class="row my-5">
-<?php echo  $galery; ?>
+<?php echo $galery; ?>
 </section>	
 <?php
-}
 } 
 }
 ?>

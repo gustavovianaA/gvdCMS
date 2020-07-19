@@ -18,7 +18,7 @@ $final_image = '';
 $final_image = rand(1000,1000000).$img;
 // check's valid format
 if(in_array($ext, $valid_extensions)) { 	
-$mainImg = '../img/uploads/' . $category . '/' . strtolower($final_image); 
+$mainImg = '../img/uploads/' . $targetCat . '/' . strtolower($final_image); 
 if(move_uploaded_file($tmp,$mainImg)){
 //chown($path,'root');
 chmod($mainImg, 0644);
@@ -42,7 +42,7 @@ $final_image = '';
 $final_image = rand(1000,1000000).$img;
 // check's valid format
 if(in_array($ext, $valid_extensions)) { 	
-$path = '../img/uploads/' . $category . '/' . strtolower($final_image); 
+$path = '../img/uploads/' . $targetCat . '/' . strtolower($final_image); 
 if(move_uploaded_file($tmp,$path)){
 //chown($path,'root');
 chmod($path, 0644);

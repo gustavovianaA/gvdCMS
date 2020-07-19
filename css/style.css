@@ -2,3 +2,5 @@
 /*GENERAL*/
 .gvd_link a{ color : #000; text-decoration: none }
 .gvd_content img{ min-width: 100% }
+/*SINGLE*/
+.gvd-single-galery img{height : 250px !important;}

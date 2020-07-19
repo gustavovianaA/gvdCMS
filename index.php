@@ -20,18 +20,23 @@ include(HEADER);
 </main>
 <?php include(FOOTER); ?>
 <ol>
+<li>--- 0.1</li>
 <li><strong>OK : CRUD em itens</strong></li>
 <li><strong>OK : Área restrita</strong></li>
 <li><strong>OK : Criar createbycat para ser possível modificar o form de acordo com a categoria</strong>></li>
 <li><strong>OK : criar coluna extra, concatenar extras e salvar</strong></li>
 <li><strong>OK : Front-end painel de login</strong></li>
-<li>Github</li>
-<li>Na single colocar um modal para visualização única de imagem</li>
+<li><strong>OK : Github</strong></li>
+<li><strong>OK BUG : as imagens não estão indo para as pastas de categoria</strong></li>
+<li>Trabalhar melhor os itens extra , mandar a categoria pro validateForm() e modificar edit, create .php</li>
 <li>Negar acesso direto à arquivos de classe e pasta app</li>
-<li>Corrigir bugs</li>
 <li>Upload de imagem gera um thumb, index carrega só thumbs</li>
+<li>Corrigir bugs</li>
+<li>Segurança do app</li>
+<li>--- 0.2</li>
+<li>Na single colocar um modal para visualização única de imagem</li>
 <li>Mudar a ordem de objetos da categoria</li>
 <li>métodos mágicos nas classes</li>
-<li>Segurança do app</li>
 <li>Quando deletar o item, deletar também suas imagens</li>
 </ol>
+
