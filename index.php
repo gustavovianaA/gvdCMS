@@ -29,7 +29,7 @@ include(HEADER);
 <li><strong>OK : Github</strong></li>
 <li><strong>OK BUG : as imagens não estão indo para as pastas de categoria</strong></li>
 <li>Trabalhar melhor os itens extra , mandar a categoria pro validateForm() e modificar edit, create .php</li>
-<li>Negar acesso direto à arquivos de classe e pasta app</li>
+<li><strong>OK: Negar acesso direto à arquivos de classe e pasta app</strong></li>
 <li>Upload de imagem gera um thumb, index carrega só thumbs</li>
 <li>Corrigir bugs</li>
 <li>Segurança do app</li>
@@ -39,4 +39,3 @@ include(HEADER);
 <li>métodos mágicos nas classes</li>
 <li>Quando deletar o item, deletar também suas imagens</li>
 </ol>
-

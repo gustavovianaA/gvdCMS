@@ -22,5 +22,3 @@ mainImg TEXT NOT NULL,
 category varchar(64) NOT NULL,
 extra TEXT NOT NULL
 );
-
-INSERT INTO `users` (`id`, `user`, `password`) VALUES (NULL, 'admin', '$2y$10$arDVJ324Q/GtNhnNRyVuqun.6p1J9TGbmJJLbT1S4nvpw8bF819Xi');

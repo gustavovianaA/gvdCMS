@@ -3,10 +3,9 @@
 ## Por enquanto - Rodando sem enrolação...
 <ol>
 <li>Crie suas categorias manualmente na base de dados 'categories'</li>
-<li>Acesse 'pasta_raiz'/admin e realize o login: admin|admin</li>
-<li>Crie uma categoria pelo menu de admin</li>
+<li>acesse 'pasta_raiz'/admin/create.php, e crie um item.</li>
 <li>No index.php da pasta raiz edite <pre>Item::showSite1('Isira uma categora' , Insira o número máximo de itens )</pre></li>  
-  <li>Na página exemplo(categoria1.php) edite <pre>Item::showSite1('Isira uma categora')</pre></li>
+  <li>Na página exemplo(produtos.php) edite <pre>Item::showSite1('Isira uma categora')</pre></li>
 </ol>
 
 ## Detalhes técnicos 
