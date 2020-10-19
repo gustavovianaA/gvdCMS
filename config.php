@@ -2,7 +2,13 @@
 error_reporting(E_ALL); ini_set('display_errors', 'On'); 
 $pathCorrection = function(){
 $uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\'); 
-$add = (strpos($uri, 'admin')) ? '../' : '';
+if(strpos($uri , 'admin') && !strpos($uri , 'system')){
+	$add = '../';
+}else if(strpos($uri , 'system')){
+	$add = '../../';
+}else{
+	$add = '';
+}
 return $add;
 }; 
 // if is a subfolder, add ../ to path 

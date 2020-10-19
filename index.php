@@ -15,8 +15,33 @@ include(HEADER);
 <section class="gvd_link gvd_content servicos" id="extra1">
 <h2 class="text-center">Extra 1</h2>
 <?php Item::showExtra1('extra' , 3) ?>		
-</div>
 </section>
+<section>
+<h2 class="text-center">Contato</h2>
+<form id="form_msg_client" class="mx-5 px-4 py-5">
+   <div class="form-group">
+    <label for="contact-name">Nome</label>
+    <input type="text" class="form-control" id="contact-name">
+  </div>
+  <div class="form-group">
+    <label for="contact-phone">Telefone</label>
+    <input type="text" class="form-control" id="contact-phone">
+  </div>
+   <div class="form-group">
+    <label for="contact-mail">E-mail</label>
+    <input type="text" class="form-control" id="contact-mail">
+  </div>
+  <div class="form-group">
+    <label for="contact-msg">Mensagem</label>
+    <textarea class="form-control" id="contact-msg" rows="3"></textarea>
+  </div>
+  <div id="form_msg_client_send" class="btn btn-block btn-primary">
+    Enviar
+  </div>
+  <p id="form_msg_client_feedback"></p>
+</form>
+</section>
+</div>
 </main>
 <?php include(FOOTER); ?>
 <ol>
@@ -28,7 +53,7 @@ include(HEADER);
 <li><strong>OK : Front-end painel de login</strong></li>
 <li><strong>OK : Github</strong></li>
 <li><strong>OK BUG : as imagens não estão indo para as pastas de categoria</strong></li>
-<li>Trabalhar melhor os itens extra , mandar a categoria pro validateForm() e modificar edit, create .php</li>
+<li><strong>OK : Trabalhar melhor os itens extra , mandar a categoria pro validateForm() e modificar edit, create .php</strong></li>
 <li><strong>OK: Negar acesso direto à arquivos de classe e pasta app</strong></li>
 <li>Upload de imagem gera um thumb, index carrega só thumbs</li>
 <li>Corrigir bugs</li>

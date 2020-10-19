@@ -19,16 +19,16 @@ public static function showAdm1($category=''){
 	<h3 class="row"><?php echo $title; ?></h3>
     <?php if($showCat){?> <h5 class="row text-primary">Categoria: <?php echo $category; ?></h5> <?php } ?>
     <div class="row">    
-		<div class="col-4">			
+		<div class="col-12 col-lg-4">			
 			<?php $mainImage = self::mainImage($id);
 			if($mainImage !== ''){ ?>
 			<img class="img-fluid" src="../<?php echo self::mainImage($id)?>">
 		    <?php }else{ echo '[Item não possui imagem]' ; } ?>
 		</div>	
-		<div class="col-6">
+		<div class="col-12 col-lg-6">
 			<p><?php echo $description;?></p>
 		</div>
-		<div class="col-2">
+		<div class="col-12 col-lg-2">
 			<a href="edit.php?id=<?php echo $id?>&category=<?php echo $category?>" class="btn btn-success btn-block" >Editar</a> 
 			<a href="delete.php?id=<?php echo $id?>&category=<?php echo $category?>" class="btn btn-danger btn-block" >Deletar</a> 
 		</div>	

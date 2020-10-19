@@ -11,16 +11,16 @@ include(HEADER); ?>
 }?>
 </div>
  <section class="row">
-<article class="px-4 col-3 text-center" id="adm-user-info">
+<article class="px-4 col-12 col-lg-3 text-center" id="adm-user-info">
 <!-- pre-user -->
 <h2>'Website_name' - Admin</h2>
 <p>User_name</p>	
-<img class="pb-3 img-fluid rounded-circle" src="img/user.jpg">
+<img style="max-width: 200px" class="pb-3 img-fluid rounded-circle" src="img/user.jpg">
 <p class="btn btn-info btn-block">Trocar senha</p>
 <p class="btn btn-info btn-block">Trocar foto</p>
 <p class="btn btn-danger btn-block">Sair</p>
 </article>
-<article class="col-9 px-5" id="adm-display-cat"> 
+<article class="col12 col-lg-9 px-5" id="adm-display-cat"> 
 	<?php  
 	if(isset($_GET['category'])) 
  		AdmItem::showAdm1($_GET['category']); 

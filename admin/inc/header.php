@@ -43,6 +43,10 @@ if(isset($_POST['logout'])){
       </li>
 
       <li class="nav-item active">
+        <a class="nav-link"  href="system/clients.php">Sistema - Clientes</a>
+      </li>
+
+      <li class="nav-item active">
         <form method="post">
         <input type="submit" name="logout" value="Sair" class="btn btn-danger">
         </form>
