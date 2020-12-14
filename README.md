@@ -1,5 +1,5 @@
 # gvdCMS 
-## Gerenciar conteúdo em sites simples
+## Um CMS PHP útil e funcional de arquitetura freestyle
 ## Por enquanto - Rodando sem enrolação...
 <ol>
 <li>Crie suas categorias manualmente na base de dados 'categories'</li>
